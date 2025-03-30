@@ -2,6 +2,13 @@
 
 This repository is a minimalized version of the [NIST Digital Library of Mathematical Functions (DLMF)](https://dlmf.nist.gov/), containing just the math and the prose in markdown format. For the full version and a description of how it was made, see [`DLMF-mirror`](https://github.com/Novum-Mathematicum/DLMF-mirror).
 
+The bibliography is available in `DLMF-mirror`. My recommendation is to go to `DLMF-mirror` and check the `bib` folder. For example, to find out what `Olver ([1997b](./bib/O.html#bib1809 "Asymptotics and Special Functions")` refers to exactly, simply open [`bib/bib1809.bib`](https://github.com/Novum-Mathematicum/DLMF-mirror/blob/main/html/bib/bib1809.bib), and there it is.
+
+* `1` to `36`: The chapters. Each chapter is in a single folder. There is a file like `1.md` which is essentially a table of contents for the chapter, followed by `1.1.md` to `1.18.md` for the sections of the chapter.
+* `toc.md`: all chapter names
+* `toc_full.md`: all chapter and section names.
+* `idx`: All indices.
+
 ## Intended use
 
 I made this because I wanted to do classical mathematics and wrangle with those old classical mathematical functions, but I can't remember those obscure functions and their arcane properties. So I thought: "I can't remember these, and I can't figure out the right words to search on Google because Google doesn't take latex inputs. And Wolfram Alpha's AI is quite stupid and useless at fuzzy search... This is the perfect job for modern LLMs, if only they have access to those classical mathematical compendia!"
